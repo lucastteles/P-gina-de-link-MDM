@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Responsivo</title>
+  <style>
+
+
+ html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+
+.background {
+  background-image: url(images/Backgroundpaginalink.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.main {
+   display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 510px;
+}
+
+
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  margin: 10px
+}
+
+.imagem img {
+  width: 100%;
+  /* height: auto; */
+}
+
+
+
+
+/*****************RESPONSIVO******************/
+
+/* Estilos para telas menores que 968px */
+@media (max-width: 968px) {
+  .imagem {
+    max-width: 80%;
+  }
+}
+
+/* Estilos para telas menores que 450px */
+@media (max-width: 480px) {
+ 
+/* main{
+  max-height: 5vh;
+} */
+  .imagem {
+    max-width: 90%;
+  }
+
+  .imagemnome {
+  width: 100%;
+  margin: 10px;
+  margin-top: -150px;
+  position: relative;
+}
+}
+  </style>
+</head>
+<body>
+  <!-- <div class="waveWrapper waveAnimation">
+    <div class="waveWrapperInner bgTop">
+      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgMiddle">
+      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+    </div>
+    <div class="waveWrapperInner bgBottom">
+      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+    </div>
+  </div> -->
+
+
+
+
+  
+
+  <!-- <header>
+    <img src="images/Pagina de linkCapa (2).png" alt="Imagem 1">
+</header>
+<div class="background">
+  <main>
+    <div class="imagemnome">
+      <img src="images/Pagina de link Nome.png" alt="Imagem 2">
+    </div>
+
+    <div class="imagem">
+      <img src="images/Página de link empresario.png" alt="Imagem 2">
+    </div>
+    <div class="imagem">
+      <img src="images/Pagina de link reels.png" alt="Imagem 3">
+    </div>
+    <div class="imagem">
+      <img src="images/Pagina de link Mentoria.png" alt="Imagem 4">
+    </div>
+  </main>
+
+</div>
+</body>
+</html> -->
